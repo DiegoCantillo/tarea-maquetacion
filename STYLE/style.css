@@ -33,6 +33,12 @@ body{
         font-weight: var(--regularFont-w);
     }
 }
+@media(max-width: 443px){
+    body{
+        font-size: 15px;
+      
+    }
+}
 /**********************************FOOTER************************************/
 
 header {
@@ -101,7 +107,12 @@ main .main-container{
         text-align: center;
     }
 }
-
+@media(max-width: 443px){
+    main .main-container{
+       padding-bottom: 35px;
+    }
+    
+}
 @media(max-width: 480px){
     main .main-container .content-desing-exp{
         height: 50px;
@@ -119,6 +130,13 @@ main .main-container .content-desing-exp .h1-clase-mobil{
         font-weight: var(--SemiboldTitel-D);
         font-size: var(--pixelesTitle-M);
         margin-top: 20px;
+    }
+}
+
+@media(max-width: 443px){
+    main .main-container .content-desing-exp .h1-clase-mobil h1{
+        font-size: 38px;
+        margin-top: 17px;
     }
 }
 
@@ -153,6 +171,11 @@ main .main-container .content-desing-exp p{
         text-align: center;
     }
 }
+@media(max-width: 443px){
+    main .main-container .content-desing-exp p{
+        font-size: 17px;
+    } 
+}
 
 main .main-container .content-desing-exp p span{
     display: block;
@@ -171,6 +194,12 @@ main .main-container .content-desing-exp h3{
     main .main-container .content-desing-exp h3{
         padding: 15px 0;
         font-size: 20px;
+    }
+}
+@media(max-width: 443px){
+    main .main-container .content-desing-exp h3{
+        padding: 12px 0;
+        font-size: 17px;
     }
 }
 
@@ -201,6 +230,12 @@ main .main-container .content-desing-exp .icons-main figure{
         padding: 7px;
         margin: 0 10px;
 }
+}
+@media(max-width: 443px){
+    main .main-container .content-desing-exp .icons-main figure{
+        padding: 5px;
+        margin: 0 8px;
+    }
 }
 
 /* CONTACTO DESKTOP */
@@ -255,7 +290,12 @@ main .content-img{
         margin-bottom: 25px;
     }
 }
-
+@media(max-width: 443px){
+    main .main-container .content-desing-exp .icons-main figure{
+        padding: 5px;
+        margin: 0 8px;
+    }
+}
 
 /* CONTACTO PARA MOBILE */
 @media(max-width: 480px){
@@ -274,8 +314,12 @@ main .content-img{
     }
 
 }
-
-
+@media(max-width: 443px){
+    main .bar-conatac-mobil{
+       margin-top: 55px;
+       margin-bottom: 75px;
+    }
+}
 /*SECCION EXPERIENCIA Y HABILIDADES*/
 
 .section-ex-sk{
@@ -308,6 +352,11 @@ main .content-img{
        font-size: var(--pixelesSubTitle-M);
     }
 }
+@media(max-width: 443px){
+    .section-ex-sk .set-skils-spex .exp-skills h2{
+        font-size: 30px;
+     }
+}
 
 .section-ex-sk .set-skils-spex .exp-skills p{
     margin-top: 60px;
@@ -317,6 +366,11 @@ main .content-img{
     .section-ex-sk .set-skils-spex .exp-skills p{
         margin-top: 30px;
        font-size: 16px;
+    }
+}
+@media(max-width: 443px){
+    .section-ex-sk .set-skils-spex .exp-skills p{
+        margin-top: 20px;
     }
 }
 
@@ -449,6 +503,11 @@ main .content-img{
         font-size: var(--pixelesSubTitle-M);
     }  
 }
+@media(max-width: 443px){
+    .sect-portafolio h2{
+        font-size: 30px;
+    }  
+}
 
 .sect-portafolio .container-imgs{
     display: grid;
@@ -501,8 +560,13 @@ footer h2{
 }
 @media(max-width: 480px){
     footer h2{
-        font-size: var(--SemiboldTitel-D);
+        font-weight: var(--SemiboldTitel-D);
         font-size: var(--pixelesSubTitle-M);
+    }
+}
+@media(max-width: 443px){
+    footer h2{
+        font-size: 30px
     }
 }
 footer .contacts{
