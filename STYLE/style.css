@@ -36,7 +36,7 @@ body{
 @media(max-width: 443px){
     body{
         font-size: 15px;
-      
+        overflow-x: hidden;
     }
 }
 /**********************************FOOTER************************************/
@@ -483,13 +483,38 @@ main .content-img{
 /* SECCION PORTAFOLIO */
 
 .sect-portafolio{
-    width: 85%;
+    width: 95%;
     margin: auto;
 }
 @media(max-width: 480px){
     .sect-portafolio{
         width: 95%;
         margin: auto;
+    }
+}
+@media(max-width: 443px){
+    .sect-portafolio{
+        width: 87%;       
+    }
+}
+@media(max-width: 428px){
+    .sect-portafolio{
+        width: 92%;       
+    }
+}
+@media(max-width: 401px){
+    .sect-portafolio{
+        width: 95%;       
+    }
+}
+@media(max-width: 388px){
+    .sect-portafolio{
+        width: 98%;       
+    }
+}
+@media(max-width: 379px){
+    .sect-portafolio{
+        width: 100%;       
     }
 }
 
@@ -520,6 +545,13 @@ main .content-img{
         justify-items: center;
     }
 }
+@media(max-width: 443px){
+    .sect-portafolio .container-imgs{
+        width: 30%;
+       
+    }
+}
+
 
 .sect-portafolio .container-imgs h4{
     font-weight: var(--regularFont-w);
@@ -585,15 +617,31 @@ footer .contacts .icos-contac figure svg{
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
 }
+@media(max-width: 480px){
+    footer .contacts .icos-contac figure svg{
+        padding: 30px;   
+    }
+}
 
 footer .contacts .icos-contac p{
     font-weight: normal;
     font-size: 15px;
 }
+@media(max-width: 480px){
+    ooter .contacts .icos-contac p{
+        font-size: 11px;
+}
+}
 
 footer .contacts .icos-contac span{
     font-size: 11px;
     color: #838080;
+}
+@media(max-width: 480px){
+    footer .contacts .icos-contac span{
+        font-size: 9px;
+        margin: 0;
+    }
 }
 
 footer .derechos{
@@ -615,6 +663,14 @@ footer .derechos{
     }
 }
 
+@media(max-width: 480px){
+    footer .derechos{
+        font-size: 11px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+}
+
 footer .derechos span{
     font-size: 25px;
 }
@@ -622,5 +678,10 @@ footer .derechos span{
 @media(max-width: 480px){
     footer .derechos span{
         font-size: 20px;
+    }
+}
+@media(max-width: 480px){
+    footer .derechos span{
+        font-size: 15px;
     }
 }
